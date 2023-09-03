@@ -18,7 +18,7 @@ pipeline {
         
         stage("Echo message") {
 steps{
-                bat 'echo $MESSAGE'
+                bat "echo $MESSAGE"
             }
         }
 
